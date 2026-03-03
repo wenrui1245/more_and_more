@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="moreandmore"
+version="0.0.1"
+displayName="More and More"
+authors="凌风之云"
+description='''
+添加以下内容：
+- 温泉流体：接触获得生命恢复效果
+- 沉默附魔：使目标暂时无法攻击
+'''
+logoFile="logo.png"
+credits="感谢Forge团队"
+displayURL="https://www.example.com"
+updateJSONURL="https://www.example.com/update.json"
+
+[[dependencies.moreandmore]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.moreandmore]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+
+

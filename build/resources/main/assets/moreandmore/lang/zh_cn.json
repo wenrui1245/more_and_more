@@ -1,0 +1,19 @@
+{
+  "block.moreandmore.hot_spring_block": "温泉",
+  "fluid_type.moreandmore.hot_spring_fluid_type": "温泉",
+  "item.moreandmore.hot_spring_bucket": "温泉桶",
+  "item_group.moreandmore.main": "更多内容",
+  "enchantment.moreandmore.silence": "沉默",
+  "enchantment.moreandmore.silence.desc": "使目标3秒内无法造成伤害，并使攻击者获得短暂力量效果。",
+  "advancements.moreandmore.hot_water.title": "烧热的水",
+  "advancements.moreandmore.hot_water.description": "将水桶在熔炉中烧制成温泉桶。",
+  "enchantment.moreandmore.last_stand": "屹立不倒",
+  "enchantment.moreandmore.last_stand.desc": "受到致命伤害时消耗3级经验抵消伤害并获得伤害吸收与抗性提升效果，冷却时间30秒。",
+  "enchantment.moreandmore.explosive_arrow": "爆炸箭",
+  "enchantment.moreandmore.explosive_arrow.desc": "射出时造成爆炸，造成范围爆炸伤害。",
+  "enchantment.moreandmore.frost_touch": "冰霜之触",
+  "enchantment.moreandmore.frost_touch.desc": "攻击时冻结目标，部分生物对该效果免疫，对火焰生物有额外伤害。",
+  "item.moreandmore.shattered_sword": "支离剑",
+  "item.moreandmore.shattered_sword.desc": "以血换力，破碎中寻求力量"
+}
+

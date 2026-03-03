@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "": {
+      "model": "moreandmore:block/hot_spring_block",
+      "custom": {
+        "fluid": "moreandmore:hot_spring_fluid",
+        "level": 8
+      }
+    }
+  }
+}

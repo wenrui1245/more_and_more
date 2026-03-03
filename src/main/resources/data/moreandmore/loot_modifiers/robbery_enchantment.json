@@ -1,0 +1,18 @@
+{
+  "type": "moreandmore:add_enchantment",
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.15
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:pillager"
+      }
+    }
+  ],
+  "enchantment": "moreandmore:robbery",
+  "level": 1
+}

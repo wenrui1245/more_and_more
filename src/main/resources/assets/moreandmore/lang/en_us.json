@@ -1,0 +1,22 @@
+{
+  "block.moreandmore.hot_spring_block": "Hot Spring",
+  "item.moreandmore.hot_spring_bucket": "Hot Spring Bucket",
+  "fluid_type.moreandmore.hot_spring_fluid_type": "Hot Spring",
+  "item_group.moreandmore.main": "More and More",
+  "enchantment.moreandmore.silence": "Silence",
+  "enchantment.moreandmore.silence.desc": "Makes the target unable to attack for 3 seconds,and grant the attacker a brief power effect.",
+  "advancements.moreandmore.hot_water.title": "Heated Water",
+  "advancements.moreandmore.hot_water.description": "Turn a water bucket into a hot spring bucket via smelting.",
+  "enchantment.moreandmore.last_stand": "Last Stand",
+  "enchantment.moreandmore.last_stand.desc": "Consume 3 levels to negate lethal damage and gain Absorption,cooldown for 30 seconds.",
+  "enchantment.moreandmore.explosive_arrow": "Explosive Arrow",
+  "enchantment.moreandmore.explosive_arrow.desc": "Fire an explosive arrow that deals 10 times the damage of a normal arrow.",
+  "enchantment.moreandmore.frost_touch": "Frost Touch",
+  "enchantment.moreandmore.frost_touch.desc": "Freezes the target when attacking, some creatures are immune to this effect, and there is extra damage to fiery creatures.",
+  "item.moreandmore.shattered_sword": "Shattered Sword",
+  "item.moreandmore.shattered_sword.desc": "Trade blood for power",
+  "enchantment.moreandmore.robbery": "Robbery",
+  "enchantment.moreandmore.robbery.desc": "Swords with this enchantment cause villagers and illagers to drop emeralds when hit or killed.",
+  "message.moreandmore.too_weak": "You are too weak for the sword to respond to you.",
+  "message.moreandmore.no_xp": "Lack of experience, unable to trigger the Last Stand effect."
+}
