@@ -13,7 +13,6 @@ import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import org.jetbrains.annotations.NotNull;
-import net.minecraft.world.entity.raid.AbstractRaider;
 
 @Mod.EventBusSubscriber(modid = "moreandmore", bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class RobberyEnchantment extends Enchantment {
@@ -70,7 +69,7 @@ public class RobberyEnchantment extends Enchantment {
 
                 if (robberyLevel > 0) {
                     // 检查目标是否是村民或灾厄村民
-                    if (event.getEntity() instanceof Villager || event.getEntity() instanceof AbstractRaider) {
+                    if (event.getEntity() instanceof Villager || event.getEntity() instanceof AbstractIllager) {
                         // 现在的 AbstractRaider 包含了：卫道士、掠夺者、唤魔者以及劫掠兽！
                         dropAttackEmeralds(event.getEntity(), robberyLevel);
                     }
@@ -89,7 +88,7 @@ public class RobberyEnchantment extends Enchantment {
 
                 if (robberyLevel > 0) {
                     // 检查目标是否是村民或灾厄村民
-                    if (event.getEntity() instanceof Villager || event.getEntity() instanceof AbstractRaider) {
+                    if (event.getEntity() instanceof Villager || event.getEntity() instanceof AbstractIllager) {
                         // 现在的 AbstractRaider 包含了：卫道士、掠夺者、唤魔者以及劫掠兽！
                         dropAttackEmeralds(event.getEntity(), robberyLevel);
                     }
