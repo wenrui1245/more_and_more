@@ -26,6 +26,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Consumer;
 
+@SuppressWarnings("removal")
 public class ModFluids {
     // 注册表
     public static final DeferredRegister<Fluid> FLUIDS =

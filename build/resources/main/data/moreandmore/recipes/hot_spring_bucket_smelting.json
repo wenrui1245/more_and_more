@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:water_bucket"
+  },
+  "result": "moreandmore:hot_spring_bucket",
+  "experience": 0.35,
+  "cookingtime": 400
+}

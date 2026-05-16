@@ -16,6 +16,7 @@ public class MoreAndMore {
     private static final Logger LOGGER = LogUtils.getLogger();
 
 
+@SuppressWarnings("removal")
 public MoreAndMore() {
         LOGGER.info("Initializing MoreAndMore Mod...");
 

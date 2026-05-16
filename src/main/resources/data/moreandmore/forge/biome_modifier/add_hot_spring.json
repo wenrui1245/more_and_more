@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "moreandmore:hot_spring_waterfall",
+    "moreandmore:hot_spring_lake"
+  ],
+  "step": "fluid_springs" 
+}

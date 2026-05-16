@@ -46,5 +46,5 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:'  + project.forge_version
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 }

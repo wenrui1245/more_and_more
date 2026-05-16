@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "item": "moreandmore:hot_spring_bucket"
+    },
+    "title": "烧热的水",
+    "description": "通过熔炉将水桶烧制成温泉桶",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_hot_spring_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["moreandmore:hot_spring_bucket"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "feature": "moreandmore:hot_spring_waterfall",
+  "placement": [
+    {
+      "count": 5,
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -64
+        },
+        "max_inclusive": {
+          "absolute": 192
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ],
+  "biomes": [
+    "minecraft:river",
+    "minecraft:swamp",
+    "minecraft:forest",
+    "minecraft:taiga"
+  ]
+}

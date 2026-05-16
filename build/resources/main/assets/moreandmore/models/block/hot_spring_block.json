@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "moreandmore:block/hot_spring_still"
+  }
+}

@@ -84,8 +84,6 @@ public class ExplosiveArrowEnchantment extends Enchantment {
             return;
         }
 
-        // 防止箭矢造成原始伤害
-        event.setCanceled(true);
 
         // 获取碰撞位置
         double x = arrow.getX();

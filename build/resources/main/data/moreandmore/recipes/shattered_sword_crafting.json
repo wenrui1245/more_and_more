@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BNB",
+    "NSN",
+    "BNB"
+  ],
+  "key": {
+    "N": { "item": "minecraft:nether_star" },
+    "S": { "item": "minecraft:netherite_sword" },
+    "B": { "item": "minecraft:netherite_block" }
+  },
+  "result": {
+    "item": "moreandmore:shattered_sword",
+    "count": 1
+  }
+}
