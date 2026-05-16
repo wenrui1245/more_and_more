@@ -122,8 +122,8 @@ public class ModFluids {
                 SOURCE_HOT_SPRING,
                 FLOWING_HOT_SPRING
         )
-                .bucket(() -> ModItems.HOT_SPRING_BUCKET.get())
-                .block(() -> ModBlocks.HOT_SPRING_BLOCK.get())
+                .bucket(ModItems.HOT_SPRING_BUCKET)
+                .block(ModBlocks.HOT_SPRING_BLOCK)
                 .tickRate(5)
                 .slopeFindDistance(4)
                 .levelDecreasePerBlock(1)
